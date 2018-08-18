@@ -1,4 +1,4 @@
-package com.aincorp.wardrobe.starter;
+package com.aincorp.wardrobe.starter.config;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
