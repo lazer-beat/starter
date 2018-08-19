@@ -1,7 +1,8 @@
-package com.aincorp.wardrobe.starter.service;
+package com.aincorp.wardrobe.springboot.service;
 
 import org.springframework.stereotype.Service;
 
 @Service
 public class UserServiceImpl implements UserService {
+
 }

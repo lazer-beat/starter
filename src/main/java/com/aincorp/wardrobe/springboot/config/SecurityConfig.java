@@ -1,4 +1,4 @@
-package com.aincorp.wardrobe.starter.config;
+package com.aincorp.wardrobe.springboot.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -8,7 +8,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.scrypt.SCryptPasswordEncoder;
 
 @Configuration
-@ComponentScan("com.aincorp.wardrobe.starter")
+@ComponentScan("com.aincorp.wardrobe.springboot")
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Bean(name = "encoder")

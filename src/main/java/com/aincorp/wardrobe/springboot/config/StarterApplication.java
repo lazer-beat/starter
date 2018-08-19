@@ -1,4 +1,4 @@
-package com.aincorp.wardrobe.starter.config;
+package com.aincorp.wardrobe.springboot.config;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,8 +9,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
 @EnableWebMvc
-@EnableJpaRepositories(basePackages = "com.aincorp.wardrobe.starter.dao")
-@EntityScan(basePackages = "com.aincorp.wardrobe.starter.model")
+@EnableJpaRepositories(basePackages = "com.aincorp.wardrobe.springboot.dao")
+@EntityScan(basePackages = "com.aincorp.wardrobe.springboot.model")
 @EnableWebSecurity
 public class StarterApplication {
 

@@ -1,14 +1,13 @@
-package com.aincorp.wardrobe.starter.config;
+package com.aincorp.wardrobe.springboot.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
-import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-@ComponentScan("com.aincorp.wardrobe.starter")
+@ComponentScan("com.aincorp.wardrobe.springboot")
 public class MvcConfig implements WebMvcConfigurer {
 
 

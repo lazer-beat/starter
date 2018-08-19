@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.aincorp.wardrobe</groupId>
-	<artifactId>starter</artifactId>
+	<artifactId>wardrobe</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>starter</name>
-	<description>Project for peoples who needs to know about they clothers.</description>
+	<name>wardrobe</name>
+	<description>Project for peoples who needs to know about they clothes.</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

@@ -1,4 +1,4 @@
-package com.aincorp.wardrobe.starter.model;
+package com.aincorp.wardrobe.springboot.model;
 
 import javax.persistence.*;
 import java.io.Serializable;

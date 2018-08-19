@@ -1,4 +1,4 @@
-package com.aincorp.wardrobe.starter.config;
+package com.aincorp.wardrobe.springboot.config;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
