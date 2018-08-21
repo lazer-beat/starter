@@ -1,4 +1,4 @@
-package com.aincorp.wardrobe.springboot.model;
+package com.aincorp.wardrobe.springboot.models;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -20,6 +20,11 @@ public class Role implements Serializable {
     private Set<User> users;
 
     public Role() {
+    }
+
+    public Role(String name, Set<User> users) {
+        this.name = name;
+        this.users = users;
     }
 
     public Long getId() {
